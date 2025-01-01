@@ -88,3 +88,21 @@ Methods:
 
     __init__(): Initializes a new book with title, author, ISBN, availability status, and due date.
 
+2. User Class
+   
+The User class represents a user in the library system.
+
+Attributes:
+
+    name: A string representing the user's name.
+    user_id: A unique identifier for the user.
+    borrowed_books: A list of Book objects currently borrowed by the user.
+
+Methods:
+    
+    __init__(): Initializes a user with their name, user ID, and an empty list of borrowed books.
+    borrow_book(book): Allows the user to borrow a book. Sets the book's due date to 7 days from the current date, updates its availability, and adds it to the        user's borrowed books list. Returns True if successful, otherwise False.
+    return_book(book): Allows the user to return a borrowed book. Resets the book's availability and due date, and removes it from the user's borrowed books list.     Returns True if successful, otherwise False.
+    check_overdue_books(): Returns a list of books borrowed by the user that are overdue (past their due date).
+
+
