@@ -7,7 +7,6 @@ This is a simple **Library Management System (LMS)** built using Python and the 
 - Add, remove, and search books in the library.
 - Borrow and return books with due date tracking.
 - Manage user records and track overdue books.
-
 The system is designed to be simple, intuitive, and easy to use, with basic error handling and modern visual elements through **ttk** styles.
 
 ## Features
