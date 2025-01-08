@@ -94,7 +94,7 @@ The User class represents a user in the library system.
 
 Attributes:
 
-    name: A string representing the user's name.
+    name: A string representing the user's details.
     user_id: A unique identifier for the user.
     borrowed_books: A list of Book objects currently borrowed by the user.
 
