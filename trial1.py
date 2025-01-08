@@ -39,7 +39,7 @@ class User:
         overdue_books = [book for book in self.borrowed_books if book.due_date and book.due_date < datetime.now()]
         return overdue_books
 
-# Main Library Management System Class with the GUI
+# Main Library Management System Class with the GUI interface
 class LibraryManagementSystem:
     def __init__(self, root):
         self.root = root
